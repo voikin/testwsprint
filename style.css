@@ -1,5 +1,27 @@
+.wrapper {
+	display: flex;
+}
+
+.input-road {
+	display: block;
+}
+
+.input-road > input {
+	display: block;
+}
+
+.print {
+	margin: 0 auto;
+}
+
 canvas {
-    display: block;
-    margin: 0 auto;
-    border: 5px solid black;
+	position: absolute;
+}
+
+#road {
+	z-index: 1;
+}
+
+#cars {
+    z-index: 2;
 }
